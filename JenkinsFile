@@ -1,11 +1,12 @@
 node{
+def mvnHome
   stage('SCM Checkout'){
   git 'https://github.com/galamsiva2020/StudentEnrollment_Repos.git'
  }
  
  stage('Compile-Package'){
  //Get maven Home Path
- def mvnHome = tool name: 'maven',type:'maven'
+ 
  mvnHome ='E:/apache-maven-3.6.0-bin/apache-maven-3.6.0'
 // sh "${mvnHome}/bin/mvn package"
  }
