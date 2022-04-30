@@ -3,7 +3,7 @@
 	<groupId>com.github.elizabetht</groupId>
 	<artifactId>StudentEnrollmentWithSpring</artifactId>
 	<packaging>war</packaging>
-	<version>1.6</version>
+	<version>11</version>
 	<name>StudentEnrollmentWithSpring Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<parent>
@@ -11,6 +11,10 @@
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
 	</parent>
+	<properties> 
+   	     <maven.compiler.source>11</maven.compiler.source>
+   	     <maven.compiler.target>11</maven.compiler.target>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
